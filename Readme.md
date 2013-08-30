@@ -3,6 +3,9 @@
 Here be various snippets for use with Vim SnipMate to make node.js development quicker and easier.
 You'll need snipmate installed.
 
+##Currently Catching the Snippets up to node v0.10.x
+Actively working on streams.
+
 #How to Install For Snipmate
 Recommend downloading files to ```~/.vim/bundle/``` then symbolic linking to ```~/.vim/snippets/```
 
