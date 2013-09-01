@@ -1,0 +1,23 @@
+# Define
+snippet fs.readFile
+	fs.readFile('${1:filename}', function(err, data){
+		${2: }
+	});
+
+# Define
+snippet fs.unlink
+	fs.unlink('${1:location}', function(err){
+		${2: }
+	});
+
+# Define
+snippet fs.watchFile
+	fs.watchFile('${1:filename}', function(current, previous){
+	});
+# Define
+
+snippet fs.writeFile
+	fs.writeFile('${1:filename}', ${2:data}, ${3:'utf8'}, function(err){
+		${4: }
+	});
+# Define

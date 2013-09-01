@@ -1,0 +1,18 @@
+# Define
+snippet mongoose.connect
+	mongoose.connect('mongodb://${1:localhost}/${2:collection}');
+
+# Define
+snippet mongoose.find
+	${1:Model}.find({ ${2:} }).all(function(${3:results}){
+		${4:}
+	});
+#Define
+snippet mongoose.connect
+	mongoose.model('${1:Model}', {
+		properties: [
+	 		${2:'name'}
+	 	],
+	 	indexes: [ ${3:'name'} ],
+	 	cast: { ${4:} }
+	});

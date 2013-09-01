@@ -1,0 +1,20 @@
+
+# Define
+snippet app.get
+	app.get('${1:path}', function(req, res, next){
+		${2:}
+	});
+# Define
+snippet app.listen
+	app.listen(${1:3000}, ${2:function(){
+	   console.log("App server listening on port %d", app.address().port);
+	}});
+
+# Define
+snippet app.port
+	app.post('${1:path}', function(req, res, next){
+		${2:}
+	});
+
+
+
