@@ -3,6 +3,9 @@
 Here be various snippets for use with Vim SnipMate to make node.js development quicker and easier.
 You'll need snipmate installed.
 
+This was forks goals is to merge core APIs into individual files and merge NPM Snippets into single files.
+
+
 ##Currently Catching the Snippets up to node v0.10.x
 Actively working on streams.
 
