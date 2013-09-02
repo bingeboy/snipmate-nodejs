@@ -1,0 +1,12 @@
+# Define
+snippet pipe
+	pipe('${1:destination}', [${2:options}]){
+# Define	
+snippet processstdin
+	process.stdin.pipe(process.stdout);
+		${3:}
+	});
+# Define
+snippet processout
+	process.stdin.pipe(process.stdout);
+	$1

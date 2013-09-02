@@ -1,4 +1,8 @@
 # Define
+snippet reqmongoose
+	var mongoose = require('mongoose').Mongoose;
+
+# Define
 snippet mongoose.connect
 	mongoose.connect('mongodb://${1:localhost}/${2:collection}');
 
@@ -8,6 +12,7 @@ snippet mongoose.find
 		${4:}
 	});
 #Define
+
 snippet mongoose.connect
 	mongoose.model('${1:Model}', {
 		properties: [
