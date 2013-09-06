@@ -1,0 +1,11 @@
+# Define
+snippet reqrepl
+	var repl = require("repl");
+
+# Define
+snippet repl.start
+	repl.start({
+		prompt: "$1node via stdin> ",
+		input: process.stdin,
+		output: process.stdout
+	});
