@@ -6,9 +6,10 @@ You'll need snipmate installed.
 This was forks goals is to merge core APIs into individual files and merge NPM Snippets into single files.
 
 ##Additions In This Fork
-* repl
+* REPL
 * streams
-* timers (development)
+* timers
+* cluster (under development)
 
 ##Currently Catching the Snippets up to node v0.10.x
 Actively working on Timers.
