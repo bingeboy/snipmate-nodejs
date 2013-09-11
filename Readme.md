@@ -24,8 +24,9 @@ ln -s ~/.vim/bundle/javascript ~/.vim/snippets/
 ```
 
 ## Examples
+```
 fs.readFile
 fs.writeFile
 reqsys
 reqhttp
-etc.
+```
