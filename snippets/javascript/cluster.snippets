@@ -1,0 +1,33 @@
+# DefinRR
+snippet reqcluster
+	var cluster = require('cluster');
+
+# Define	
+snippet clusterfork
+	cluster.on('fork', function(${1:worker}) {
+		${2:}
+	});
+
+# Define
+snippet clusterlistening
+	cluster.on('listening', function((${1:worker}, ${2:ddress}) {
+		${3:}
+	});
+
+# Define
+snippet clusterexit
+	cluster.on('exit', function(${1:worker}, ${2:code}, ${3:signal}) {
+		${4:}
+	});
+
+# Define	
+snippet clusteronline
+	cluster.on('online', function(${1:worker}) {
+		${2:}
+	});
+
+# Define	
+snippet clusterdisconnect
+	cluster.on('disconnect', function(${1:worker}) {
+		${2:}
+	});
