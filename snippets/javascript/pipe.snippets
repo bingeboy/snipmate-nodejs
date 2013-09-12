@@ -3,10 +3,10 @@ snippet pipe
 	pipe('${1:destination}', [${2:options}]){
 # Define	
 snippet processstdin
-	process.stdin.pipe(process.stdout);
-		${3:}
+	process.stdin.pipe(${1:process.stdout});
+		${2:}
 	});
 # Define
 snippet processout
-	process.stdin.pipe(process.stdout);
-	$1
+	process.stdin.pipe(${1:process.stdout});
+	${2:}	
