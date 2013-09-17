@@ -9,7 +9,7 @@ This was forks goals is to merge core APIs into individual files and merge NPM S
 * REPL
 * streams
 * timers
-* cluster (under development)
+* cluster
 
 ##Currently Catching the Snippets up to node v0.10.x
 Actively working on Timers.
