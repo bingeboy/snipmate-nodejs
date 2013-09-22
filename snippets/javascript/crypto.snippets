@@ -1,2 +1,154 @@
+#Define reqcrypto
+snippet reqcrypto
+	var crypto = require('crypto');
+
 #Define 
-	Snippet
+snippet cryptocreds
+	crypto.createCredentials({key:${1:key}, cert:${2:cert}${3:, ca:[]});
+
+#Define
+snippet cryptogetciphers
+
+#Define
+snippet cryptogethashes
+	crypto.getHashes();
+#Define
+snippet cryptocreateCredentials
+	crypto.createCredentials(details)
+
+#Define
+snippet cryptocreatehash
+	crypto.createHash(algorithm)
+
+#Define
+snippet hashupdate
+	hash.update(data, [input_encoding])
+
+#Define
+snippet hashdigest
+	hash.digest([encoding])
+
+#Define
+snippet cryptocreatehmac
+	crypto.createHmac(algorithm, key)
+
+#Define
+snippet hmacupdate
+	hmac.update(data)
+
+#Define
+snippet hmacdigest
+	hmac.digest([encoding])
+
+#Define
+snippet cryptocreatecipher
+	crypto.createCipher(algorithm, password)
+
+#Define
+snippet cryptocreatecipheriv
+	crypto.createCipheriv(algorithm, key, iv)
+
+#Define
+snippet cipherudpate
+	cipher.update(data, [input_encoding], [output_encoding])
+
+#Define
+snippet cipherfinal
+	cipher.final([output_encoding])
+
+#Define
+snippet ciphersetautiopadding
+	cipher.setAutoPadding(auto_padding=true)
+
+#Define
+snippet cryptocreatedecipher
+	crypto.createDecipher(algorithm, password)
+
+#Define
+snippet cryptocreatedecipheriv
+	crypto.createDecipheriv(algorithm, key, iv)
+
+#Define
+snippet decipherupdate
+	decipher.update(data, [input_encoding], [output_encoding])
+
+#Define
+snippet decipherfinal
+	decipher.final([output_encoding])
+
+#Define
+snippet deciphersetautopadding
+	decipher.setAutoPadding(auto_padding=true)
+
+#Define
+snippet cryptocreatesign
+	crypto.createSign(algorithm)
+
+#Define
+snippet ciphersetautiopadding
+	cipher.setAutoPadding(auto_padding=true)
+
+#Define
+snippet sign
+	sign.update(data)
+#Define
+snippet sign
+	sign.sign(private_key, [output_format])
+#Define
+snippet cryptocreatverify
+	crypto.createVerify(algorithm)
+#Define
+snippet verifierupdate
+	verifier.update(data)
+#Define
+snippet verifierverify
+	verifier.verify(object, signature, [signature_format])
+#Define
+snippet cryptocreatdiffiehellan
+	crypto.createDiffieHellman(prime_length)
+#Define
+snippet cryptocreatediffiehellman
+	crypto.createDiffieHellman(prime, [encoding])
+#Define
+snippet diffiehellman
+	diffieHellman.generateKeys([encoding])
+#Define
+snippet diffiehellman
+	diffieHellman.computeSecret(other_public_key, [input_encoding], [output_encoding])
+#Define
+snippet diffiehellman
+	diffieHellman.getPrime([encoding])
+#Define
+snippet diffiehellman
+	diffieHellman.getGenerator([encoding])
+#Define
+snippet diffiehellman
+	diffieHellman.getPublicKey([encoding])
+#Define
+snippet diffiehellman
+	diffieHellman.getPrivateKey([encoding])
+#Define
+snippet diffiehellman
+	diffieHellman.setPublicKey(public_key, [encoding])
+#Define
+snippet diffiehellman
+	diffieHellman.setPrivateKey(private_key, [encoding])
+#Define
+snippet crypto
+	crypto.getDiffieHellman(group_name)
+#Define
+snippet crypto
+	crypto.pbkdf2(password, salt, iterations, keylen, callback)
+#Define
+snippet crypto
+	crypto.pbkdf2Sync(password, salt, iterations, keylen)
+#Define
+snippet crypto
+	crypto.randomBytes(size, [callback])
+#Define
+snippet crypto
+	crypto.pseudoRandomBytes(size, [callback])
+#Define
+snippet crypto
+	crypto.DEFAULT_ENCODING
+
