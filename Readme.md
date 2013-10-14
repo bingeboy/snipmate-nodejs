@@ -9,10 +9,16 @@ This was forks goals is to merge core APIs into individual files and merge NPM S
 * REPL
 * streams
 * timers
-* cluster
+* Cluster
+* Crypto
+* OS
+* Timers
+* Query Strings
+* Path
+* bcrypt
+* File System
+* Process
 
-##Currently Catching the Snippets up to node v0.10.x
-Actively working on Timers.
 
 #How to Install For Snipmate
 Recommend downloading files to ```~/.vim/bundle/``` then symbolic linking to ```~/.vim/snippets/```
