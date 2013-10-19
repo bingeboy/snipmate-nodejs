@@ -1,0 +1,30 @@
+#Define
+snippet req
+	var readline = require('readline');
+
+#Define
+snippet createinterface
+	readline.createInterface(${1:options})
+
+#Define
+snippet setprompt
+	rl.setPrompt(prompt, length)
+
+#Define
+snippet prompt
+	rl.prompt([preserveCursor])
+#Define
+snippet question
+	rl.question(query, callback)
+#Define
+snippet pause
+	rl.pause()
+#Define
+snippet resume
+	rl.resume()
+#Define
+snippet close
+	rl.close()
+#Define
+snippet write
+	rl.write(data, [key])
