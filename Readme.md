@@ -1,7 +1,9 @@
 # Vim Snippets for Node.js
 
-Here be various snippets for use with Vim SnipMate to make node.js development quicker and easier.
+Here is a updated fork of Vim Nodejs Snippets. Focuses on the core api and also handles common NPMs (TODO: List NPM).
 You'll need snipmate installed.
+
+###Supporting v.0.10.2X
 
 This fork's goals layers many updated node core api along witha few popular npm's.
 
@@ -18,7 +20,7 @@ This fork's goals layers many updated node core api along witha few popular npm'
 * bcrypt
 * File System
 * Process
-
+* ReadLine (partial)
 
 #How to Install For Snipmate
 Recommend downloading files to ```~/.vim/bundle/``` then symbolic linking to ```~/.vim/snippets/```
