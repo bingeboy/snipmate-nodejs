@@ -3,16 +3,22 @@
 Here be various snippets for use with Vim SnipMate to make node.js development quicker and easier.
 You'll need snipmate installed.
 
-This was forks goals is to merge core APIs into individual files and merge NPM Snippets into single files.
+This fork's goals layers many updated node core api along witha few popular npm's.
 
 ##Additions In This Fork
 * REPL
 * streams
 * timers
-* cluster
+* Cluster
+* Crypto
+* OS
+* Timers
+* Query Strings
+* Path
+* bcrypt
+* File System
+* Process
 
-##Currently Catching the Snippets up to node v0.10.x
-Actively working on Timers.
 
 #How to Install For Snipmate
 Recommend downloading files to ```~/.vim/bundle/``` then symbolic linking to ```~/.vim/snippets/```
