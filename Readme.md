@@ -21,6 +21,7 @@ This fork's goals layers many updated node core api along witha few popular npm'
 * File System
 * Process
 * ReadLine (partial)
+* StringDecoder
 * Plus More +++
 
 ###Full Snippet List
