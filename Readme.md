@@ -17,6 +17,7 @@ This fork's goals layers many updated node core api along witha few popular npm'
 * Timers
 * Query Strings
 * Path
+* punycode
 * bcrypt
 * File System
 * Process
