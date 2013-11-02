@@ -1,0 +1,10 @@
+#Define
+snippet reqtsl
+	var tsl = require('tls');
+#Define
+snippet privatekey
+	openssl genrsa -out {$1:name}-key.pem 1024
+#Define
+snippet tslcreate
+	openssl req -new -key {$1:name}-key.pem -out {$1:name}-csr.pem
+	
