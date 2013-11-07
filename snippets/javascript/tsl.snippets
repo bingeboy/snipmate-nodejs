@@ -7,4 +7,7 @@ snippet privatekey
 #Define
 snippet tslcreate
 	openssl req -new -key {$1:name}-key.pem -out {$1:name}-csr.pem
-	
+#Define
+snippet tlsgetciphers
+	var ciphers = tls.getCiphers();
+	console.log(ciphers); // ['AES128-SHA', 'AES256-SHA', ...]
