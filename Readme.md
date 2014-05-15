@@ -88,8 +88,22 @@ ln -s ~/.vim/bundle/javascript ~/.vim/snippets/
 
 ## Examples
 ```
-fs.readFile
-fs.writeFile
-reqsys
-reqhttp
+fs.readFile<tab>
+fs.writeFile<tab>
+reqsys<tab>
+reqhttp<tab>
+```
+Output 
+```
+fs.readFile('filename', function(err, data){
+     
+});
+
+
+fs.writeFile('filename', data, 'utf8', function(err){
+     
+});
+
+var sys = require('sys');
+var http = require('http');
 ```
